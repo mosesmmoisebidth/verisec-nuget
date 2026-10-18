@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>VeriSec</RootNamespace>
+    <AssemblyName>VeriSec</AssemblyName>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+
+    <PackageId>VeriSec</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>VeriSec Labs</Authors>
+    <Company>VeriSec Labs</Company>
+    <Product>VeriSec</Product>
+    <Description>The official .NET library for the VeriSec API: identity (KYC) and Financial checks, with typed requests and answers, images from files, safe retries and webhook verification.</Description>
+    <PackageTags>verisec;kyc;identity;face;document;mrz;aml;cheque;card;bin</PackageTags>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <IsPackable>true</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="../../README.md" Pack="true" PackagePath="/" Link="README.md" />
+    <InternalsVisibleTo Include="VeriSec.Tests" />
+  </ItemGroup>
+
+</Project>
