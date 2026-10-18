@@ -14,6 +14,11 @@
     <Description>The official .NET library for the VeriSec API: identity (KYC) and Financial checks, with typed requests and answers, images from files, safe retries and webhook verification.</Description>
     <PackageTags>verisec;kyc;identity;face;document;mrz;aml;cheque;card;bin</PackageTags>
     <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://verisec.mmose.me</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/mosesmmoisebidth/verisec-nuget</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
     <IsPackable>true</IsPackable>
   </PropertyGroup>
 
